@@ -18,30 +18,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="red" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Las-eH-Iug">
-                                <rect key="frame" x="0.0" y="20" width="375" height="55"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="eBI-rx-bCD"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lrY-Lm-Duh">
                                 <rect key="frame" x="0.0" y="452" width="375" height="215"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="215" id="cpA-sh-y93"/>
                                 </constraints>
                             </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Las-eH-Iug">
+                                <rect key="frame" x="0.0" y="306" width="375" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="lrY-Lm-Duh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8kJ-qz-qeW"/>
-                            <constraint firstAttribute="trailing" secondItem="Las-eH-Iug" secondAttribute="trailing" id="IfN-JE-OBh"/>
-                            <constraint firstItem="lrY-Lm-Duh" firstAttribute="trailing" secondItem="Las-eH-Iug" secondAttribute="trailing" id="Ozt-s6-ldN"/>
-                            <constraint firstItem="Las-eH-Iug" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="okI-TE-53s"/>
-                            <constraint firstItem="Las-eH-Iug" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rF3-MR-0E7"/>
-                            <constraint firstItem="lrY-Lm-Duh" firstAttribute="leading" secondItem="Las-eH-Iug" secondAttribute="leading" id="sLa-Um-BeF"/>
+                            <constraint firstItem="Las-eH-Iug" firstAttribute="trailing" secondItem="lrY-Lm-Duh" secondAttribute="trailing" id="EZH-bP-GEi"/>
+                            <constraint firstItem="Las-eH-Iug" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IWv-vb-4oG"/>
+                            <constraint firstAttribute="trailing" secondItem="Las-eH-Iug" secondAttribute="trailing" id="QLc-Z7-gex"/>
+                            <constraint firstItem="Las-eH-Iug" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="286" id="X5T-en-10o"/>
+                            <constraint firstItem="Las-eH-Iug" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fAf-Y9-u6n"/>
+                            <constraint firstItem="Las-eH-Iug" firstAttribute="leading" secondItem="lrY-Lm-Duh" secondAttribute="leading" id="gzk-ob-Ggj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

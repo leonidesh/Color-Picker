@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    private let dataSource = ["red","Orange","Yellow","Green","Blue","Purple"]
+    private let dataSource = ["Red","Orange","Yellow","Green","Blue","Purple"]
     
     
     @IBOutlet weak var pickerView: UIPickerView!
